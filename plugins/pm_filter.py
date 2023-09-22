@@ -910,10 +910,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                             InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
-                       ],[
-                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
-                             ]
+                             InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                       ]
                             ]
                         )
                     )
@@ -1002,10 +1000,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                 InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
-                       ],[
-                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
-                 ]
+                InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                       ]
                 ]
             )
         )
@@ -1289,7 +1285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                 InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1314,7 +1310,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                 InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1367,8 +1363,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                ],[
-                    InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles"),
-                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
+                    InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
