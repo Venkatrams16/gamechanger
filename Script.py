@@ -2,9 +2,9 @@ class script(object):
     START_TXT = """<b>HELLO {}
     
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ Movie Search  ʙᴏᴛ
-i Have Over 5 Lakh + Movie Files But Not Theatre Prints So Dont Search Theatre Prints 😉
+i Have Over 1 Lakh + Movie Files But Not Theatre Prints So Dont Search Theatre Prints 😉
 
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/+SoSdwJ3z-4QzMjI1">KKMovies</a></b> 😏</b>"""
+ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="">UNKNOWN</a></b> 😏</b>"""
 
     
     HELP_TXT = """<b>Hᴇʏ {}
