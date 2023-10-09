@@ -174,7 +174,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                         InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                         InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                        ]
                         ]
                     )
@@ -190,7 +190,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                         InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                           InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                        ]
                         ]
                     )
@@ -351,7 +351,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                       InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                        ]
                     ]
                 )
@@ -406,7 +406,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                     InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                       InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                        ]
                     ]
                 )
@@ -460,7 +460,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+               InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                        ]
             ]
         )
