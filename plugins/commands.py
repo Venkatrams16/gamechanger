@@ -30,9 +30,7 @@ async def start(client, message):
                 ],[
                  InlineKeyboardButton(' Movies Updates ', url="https://t.me/+QOElp5WswSY2ZmFl")
                 
-             ],[
-                    InlineKeyboardButton('✅ Follow Us On Instagram ✅', url="https://www.instagram.com/rey_evarra_meeranthaaaa/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==")
-                ]]
+             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
         await asyncio.sleep(2) # 😢 https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
@@ -48,15 +46,13 @@ async def start(client, message):
 
     if len(message.command) != 2:
         buttons = [[
-                  InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true"),
+                 InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true"),
                ],[
                  InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
                 ],[
                  InlineKeyboardButton(' Movies Updates ', url="https://t.me/+QOElp5WswSY2ZmFl")
                 
-             ],[
-                    InlineKeyboardButton('✅ Follow Us On Instagram ✅', url="https://www.instagram.com/rey_evarra_meeranthaaaa/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==")
-                ]]
+             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -116,15 +112,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                     InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true"),
+                      InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true"),
                ],[
                  InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
                 ],[
                  InlineKeyboardButton(' Movies Updates ', url="https://t.me/+QOElp5WswSY2ZmFl")
                 
-             ],[
-                    InlineKeyboardButton('✅ Follow Us On Instagram ✅', url="https://www.instagram.com/rey_evarra_meeranthaaaa/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==")
-                ]]
+             ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
             photo=random.choice(PICS),
