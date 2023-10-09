@@ -910,7 +910,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                             InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                               InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                        ]
                             ]
                         )
@@ -1000,7 +1000,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                 InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                        ]
                 ]
             )
@@ -1285,7 +1285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                   InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1310,7 +1310,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                   InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1363,7 +1363,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                ],[
-                    InlineKeyboardButton(' Join Backup ', url="https://t.me/+lqNqrPO8mN9kY2Rl")
+                     InlineKeyboardButton(' Join Backup ', url="https://t.me/+FXmNn7bcRZkzOTRl")
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
